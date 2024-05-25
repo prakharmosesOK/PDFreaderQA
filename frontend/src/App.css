@@ -1,7 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
 .hidden {
     display: none;
 }
 
 .active {
     display: block;
+}
+
+.mainWrapper {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    height: 89.9vh;
+    width: 100%;
 }

@@ -1,9 +1,9 @@
 .Sidenav {
-    margin-top: 4.1rem;
     background-color: #ffffff;
     width: fit-content;
     box-shadow: 0.3rem 0 0.5rem rgba(0, 0, 0, 0.1);
-    height: 100vh;
+    height:89.9vh;
+    flex-shrink: 1;
 }
 
 .Sidenav a {
@@ -66,4 +66,13 @@
 .Sidenav .customIcon {
     background-color: transparent;
     width: 2rem;
+}
+
+/* Active links */
+.activated {
+    background-color: aqua;
+}
+
+.deactivated {
+    background-color: transparent;
 }
