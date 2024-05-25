@@ -1,0 +1,52 @@
+.Taskbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5rem;
+    height: 4rem;
+    width: 94.5vw;
+    background-color: white;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.Taskbar img {
+    height: 2.4rem;
+    width: auto;
+}
+
+.Taskbar .inputParams {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30rem;
+}
+
+.Taskbar button {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 0.7rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.Taskbar button .custom-icon {
+    margin: 0 0.5rem;
+}
+
+.Taskbar .inputParams input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 10.5rem;
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+}
