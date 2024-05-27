@@ -2,14 +2,14 @@
 
 ##  📖 Introduction
 
-The Multi PDF Chatbot is an advanced application that enables users to interact with PDF documents through natural language processing. Users can upload PDFs, ask questions, get summaries, and receive detailed explanations based on the content. The application maintains a history of conversations for easy navigation and reference. Built with React, FastAPI, SQLite, LocalStorage, and LangChain, it offers a robust and user-friendly experience for extracting and understanding information from PDFs.
+The Multi PDF Chatbot is an application that enables users to interact with PDF documents through natural language processing. Users can upload PDFs, ask questions, get summaries, and receive detailed explanations based on the content. The application maintains a history of conversations for easy navigation and reference. Built with React, FastAPI, SQLite, LocalStorage, and LangChain, it offers a robust and user-friendly experience for extracting and understanding information from PDFs.
 
 ##  📝 Table of Contents
 
 1. [Overview](#overview)
 2. [Key Features](#key-features)
 3. [Technological Stack](#technological-stack)
-4. [Getting Started](#getting_started)
+4. [Getting Started](#getting-started)
 5. [Usage](#usage)
 6. [Architecture](#architecture)
 7. [API Endpoints](#apiendpoints)
@@ -18,11 +18,11 @@ The Multi PDF Chatbot is an advanced application that enables users to interact 
 10. [Author](#author)
 11. [License](#license)
 
-##  📝 Overview
+## <div id='overview'>📝 Overview</div>
 
 The PDF Chatbot is an innovative application designed to facilitate seamless interaction with PDF documents through natural language processing. Users can upload one or more PDF files and engage with a chatbot to ask questions, obtain summaries, and get detailed explanations based on the content of the PDFs. The application also includes a conversation history feature, allowing users to navigate and revisit previous interactions.
 
-##  ✨ Key Features
+## <div id='key-features'>✨ Key Features</div>
 
 <ul>
   <li><strong>PDF Upload</strong>: Users can easily upload multiple PDF documents to the application.</li>
@@ -33,7 +33,7 @@ The PDF Chatbot is an innovative application designed to facilitate seamless int
   <li><strong>User-Friendly Interface</strong>: An intuitive and responsive frontend designed to enhance user experience.</li>
 </ul>
 
-##  ✈️ Technological Stack
+## <div id='technological-stack'>✈️ Technological Stack</div>
 
 <ul>
   <li><strong>Frontend</strong>: Developed using React, providing a dynamic and interactive user interface.</li>
@@ -43,7 +43,7 @@ The PDF Chatbot is an innovative application designed to facilitate seamless int
   <li><strong>LLMs</strong>: Integrates LangChain for advanced natural language processing capabilities.</li>
 </ul>
 
-##  📲 Getting Started
+## <div id='getting-started'>📲 Getting Started</div>
 
   ### Prerequisites
   - Javascript (for frontend)
@@ -98,7 +98,7 @@ The PDF Chatbot is an innovative application designed to facilitate seamless int
   <strong>Congratulations! 🥳 the application is running.</strong>
 
 
-##  🧑🏽‍💻 Usage
+## <div id='usage'>🧑🏽‍💻 Usage</div>
 
 The landing page to the users is shown below:
 
@@ -122,7 +122,7 @@ Then the user's can ask questions in the space provided below related to the upl
 ### <a href="https://drive.google.com/file/d/1sI4LPJ22SG9EQxAUuI5ZbZbkdjk6xGro/view?usp=sharing">🎬 Video Link</a>
 <br/>
 
-##  🏰 Architecture
+## <div id='architecture'>🏰 Architecture</div>
 
   ### Frontend (React)
   <ul>
@@ -162,7 +162,7 @@ Then the user's can ask questions in the space provided below related to the upl
     <li><strong>Data Storage</strong>: All interactions and conversation history are stored in SQLite, and uploaded files are saved in LocalStorage as vector database for semantic search.</li>
   </ul>
 
-##  ☁️ API Endpoints
+## <div id='apiendpoints'>☁️ API Endpoints</div>
 
 The PDF Chatbot backend exposes several RESTful API endpoints to manage PDF uploads, interactions with the chatbot, and conversation history. Below is a list of the available endpoints:
 
@@ -226,7 +226,7 @@ The PDF Chatbot backend exposes several RESTful API endpoints to manage PDF uplo
     <li><strong>Response</strong>: Status code 200 OK on successful deletion.</li>
   </ul>
 
-##  📈 Future Improvements
+## <div id='future-improvements'>📈 Future Improvements</div>
 
 <ol>
   <li>Will be extended to generating response based upon the links of online articles.</li>
@@ -236,11 +236,11 @@ The PDF Chatbot backend exposes several RESTful API endpoints to manage PDF uplo
   <li>JWT authentication can be used for secure communication.</li>
 </ol>
 
-##  👷 Contributing
+## <div id='contribution'>👷 Contributing</div>
 
 I welcome contributions form the community. Feel free to report bugs, submit pull requests or to feature requests to improve the Multi PDF Chatbot.
 
-##  🎓 Author
+## <div id='author'>🎓 Author</div>
   ### GitHub
   <p> <a href="https://github.com/prakharmosesOK"><b>Prakhar Moses </b><a/></p>
   <p> <a href="https://github.com/prakharmoses"><b>Prakhar Moses </b><a/></p>
@@ -248,7 +248,7 @@ I welcome contributions form the community. Feel free to report bugs, submit pul
   ### Mail
   <p> <a href="mailto:mosesprakhar@gmail.com"><b>Prakhar Moses</b></a></p>
 
-##  📰 License
+## <div id='license'>📰 License</div>
 The Multi PDF Chatbot is not under any license. Viewers can't use it for commercial gains without the written permission of the author.
 
 Happy Conversation! 🚀
