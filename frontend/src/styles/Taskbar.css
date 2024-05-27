@@ -22,7 +22,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 30rem;
+    width: 38rem;
 }
 
 .Taskbar button {
@@ -50,4 +50,22 @@
     font-size: 1rem;
     padding: 0.5rem;
     margin: 0 0.5rem;
+}
+
+/* Custom classes style */
+.containPdf {
+    background-color: greenyellow !important;
+}
+
+.uploaded-file {
+    color: rgb(3, 165, 3);
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+
+.uploaded-file span {
+    margin-left: 0.5rem;
 }

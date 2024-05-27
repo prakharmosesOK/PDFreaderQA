@@ -68,9 +68,38 @@
     width: 2rem;
 }
 
+.Sidenav .chatBoxContainer {
+    display: flex;
+    margin: 0.1rem 1rem;
+    align-items: center;
+}
+
+.Sidenav nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Sidenav nav ul li .chatRooms {
+    margin-left: 0.7rem;
+}
+
+.Sidenav ul li button {
+    font-size: x-large;
+    background-color: transparent;
+    margin-right: 0.8rem;
+    cursor: pointer;
+}
+
 /* Active links */
 .activated {
-    background-color: aqua;
+    background-color: rgb(7, 233, 109);
+    border-radius: 1rem;
+    color: black;
+}
+
+.activated span, .activated svg {
+    color: black;
 }
 
 .deactivated {
