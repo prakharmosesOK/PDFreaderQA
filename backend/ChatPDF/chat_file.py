@@ -16,17 +16,6 @@ gemini_api_key = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key = os.getenv("GOOGLE_API_KEY"))
 
 
-# if 'conversation_history' not in st.session_state:
-#   st.session_state['conversation_history'] = []
-
-
-# def get_pdf_text(pdf_docs):
-#     text=""
-#     for pdf in pdf_docs:
-#         pdf_reader= PdfReader(pdf)
-#         for page in pdf_reader.pages:
-#             text += page.extract_text()
-#     return  text
 async def get_pdf_text(files):
     raw_text = ""
     if files:
@@ -90,44 +79,10 @@ def user_input(user_question, vecDBpath):
     docs = new_db.similarity_search(user_question)
 
     chain = get_conversational_chain()
-    # context = st.session_state['conversation_history']
 
     
     response = chain(
         {"input_documents":docs, "question": user_question},
         return_only_outputs=True
     )
-    
-    # st.session_state['conversation_history'].append({"question": user_question, "answer": response["output_text"]})
-
-    # print(st.session_state['conversation_history'])
-    # st.write("Reply: ", response["output_text"])
     return response["output_text"]
-
-
-
-
-# def main():
-#     st.set_page_config("Chat PDF")
-#     st.header("Chat with PDF using Gemini💁")
-
-#     user_question = st.text_input("Ask a Question from the PDF Files")
-
-#     if user_question:
-#         user_input(user_question)
-
-#     with st.sidebar:
-#         st.title("Menu:")
-#         pdf_docs = st.file_uploader("Upload your PDF Files and Click on the Submit & Process Button", accept_multiple_files=True)
-#         print("The PDF required is:\n", pdf_docs)
-#         if st.button("Submit & Process"):
-#             with st.spinner("Processing..."):
-#                 raw_text = get_pdf_text(pdf_docs)
-#                 text_chunks = get_text_chunks(raw_text)
-#                 get_vector_store(text_chunks)
-#                 st.success("Done")
-
-
-
-# if __name__ == "__main__":
-#     main()
