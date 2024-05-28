@@ -4,6 +4,8 @@
 
 The Multi PDF Chatbot is an application that enables users to interact with PDF documents through natural language processing. Users can upload PDFs, ask questions, get summaries, and receive detailed explanations based on the content. The application maintains a history of conversations for easy navigation and reference. Built with React, FastAPI, SQLite, LocalStorage, and LangChain, it offers a robust and user-friendly experience for extracting and understanding information from PDFs.
 
+### Note: For detailed commented code, kindly check the branch GenDocStr
+
 ##  📝 Table of Contents
 
 1. [Overview](#overview)
